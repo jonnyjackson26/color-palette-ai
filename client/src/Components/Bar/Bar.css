@@ -1,20 +1,14 @@
 .bar {
     flex: 1;
-    height: 300px;
-    position: relative;
-    cursor: pointer;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin: 5px;
-    transition: transform 0.2s ease-in-out;
+    position: relative;
+    cursor: pointer;
   }
   
-  .bar:hover {
-    transform: scale(1.05);
-  }
-  
-  .hex-label {
+  .hex-container {
     background-color: white;
     padding: 5px 10px;
     font-family: "Arial", sans-serif;
@@ -25,5 +19,11 @@
     margin-bottom: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .click-to-copy {
+    font-size: 10px;
+    color: #888;
+    margin-top: 2px;
   }
   

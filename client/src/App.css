@@ -1,19 +1,25 @@
+body {
+  padding:0px;
+  margin:0px;
+}
+
 .app {
   font-family: "Arial", sans-serif;
   text-align: center;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #333;
+  display: none; /* Hides the default heading */
 }
 
 .palette {
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
 }

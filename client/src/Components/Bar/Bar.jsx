@@ -9,7 +9,10 @@ const Bar = ({ hex }) => {
 
   return (
     <div className="bar" style={{ backgroundColor: hex }} onClick={handleCopy}>
-      <div className="hex-label">{hex}</div>
+      <div className="hex-container">
+        <div className="hex-label">{hex}</div>
+        <div className="click-to-copy">click to copy</div>
+      </div>
     </div>
   );
 };
