@@ -1,0 +1,29 @@
+.bar {
+    flex: 1;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 5px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bar:hover {
+    transform: scale(1.05);
+  }
+  
+  .hex-label {
+    background-color: white;
+    padding: 5px 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
